@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts.each.do |name|
-    name.delete_if
+    name.delete_if{|flavor| }
   end
 
 
