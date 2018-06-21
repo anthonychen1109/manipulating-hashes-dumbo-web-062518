@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts.each.do |name|
-    if name[:favorite_icecream_flavors] == "strawberry"
+    name.delete_if
   end
 
 
